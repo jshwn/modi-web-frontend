@@ -5,7 +5,9 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@babel/core": "^7.20.2",
     "@emotion/babel-plugin": "^11.10.5",
+    "@storybook/cli": "^6.5.13",
     "@testing-library/dom": "^8.19.0",
     "eslint": "^8.28.0",
     "jsdom": "^20.0.3",
