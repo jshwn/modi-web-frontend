@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./packages", // This must be specified if "paths" is.
+        "paths": {
+            "@components/*": ["modi-web-components/stories/*"],
+        },
+        "plugins": [
+            { "transform": "typescript-transform-paths" },
+            { "transform": "typescript-transform-paths", "afterDeclarations": true }
+          ]
+    }
+}
